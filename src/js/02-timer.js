@@ -35,13 +35,13 @@ refs.field.forEach(el => {
 });
 
 Notiflix.Notify.init({
-  width: 'auto',
-  position: 'top-center',
+  width: '320px',
+  position: 'right-top',
   distance: '50px',
   borderRadius: '10px',
   clickToClose: true,
   useIcon: false,
-  fontSize: '23px',
+  fontSize: '20px',
 });
 
 const flatpickrOptions = {
@@ -80,8 +80,8 @@ refs.startBtn.addEventListener('click', function startTimer() {
     time = convertMs(estimateTime);
     updateTimerOutput(time);
     if (estimateTime < 0) {
-      console.log('end of timer');
-      console.log(estimateTime);
+      // console.log('end of timer');
+      // console.log(estimateTime);
       refs.secondsOutput.style.color = '';
       clearInterval(timerId);
       activeTimer = false;
