@@ -21,7 +21,7 @@ Notiflix.Notify.init({
   fontSize: '23px',
 });
 
-refs.btn.addEventListener('click', e => {
+refs.btn.addEventListener('click', () => {
   // console.log(refs.delay.value);
   // console.log(amountLoops);
   // e.preventDefault();
