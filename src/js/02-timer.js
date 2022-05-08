@@ -36,12 +36,12 @@ refs.field.forEach(el => {
 
 Notiflix.Notify.init({
   width: '320px',
-  position: 'right-top',
+  position: 'top-right',
   distance: '50px',
   borderRadius: '10px',
   clickToClose: true,
   useIcon: false,
-  fontSize: '20px',
+  fontSize: '25px',
 });
 
 const flatpickrOptions = {

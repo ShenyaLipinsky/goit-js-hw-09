@@ -21,10 +21,10 @@ Notiflix.Notify.init({
   fontSize: '23px',
 });
 
-refs.btn.addEventListener('click', () => {
+refs.btn.addEventListener('click', e => {
   // console.log(refs.delay.value);
   // console.log(amountLoops);
-  // e.preventDefault();
+  e.preventDefault();
   position = refs.amount.value;
   delay = refs.delay.value;
   step = refs.step.value;
